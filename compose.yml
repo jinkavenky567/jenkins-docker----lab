@@ -1,0 +1,8 @@
+version: "3"
+services:
+  movies:
+    image: jinkavenky567/paytm:latest
+    ports:
+      - 90:80
+    deploy:
+      replicas: 3
